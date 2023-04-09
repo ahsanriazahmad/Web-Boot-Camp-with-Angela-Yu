@@ -1,4 +1,4 @@
-/*to target classes use "." to target section use "#"*/
+/*to target classes use "." to target section or ID use "#"*/
 /*font-family: 'Montserrat', sans-serif;
 font-family: 'Ubuntu', sans-serif;*/
 
@@ -51,7 +51,7 @@ h1 {
 }
 
 .iphone-mockup {
-  width: 60%;
+  width: 400px;
   transform: rotate(15deg);
 }
 
@@ -110,4 +110,35 @@ h3 {
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+/* Call to action */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+}
+.cta-title {
+  color: #fff;
+  font-family: "Montserrat-bold";
+  font-size: 50px;
+  line-height: 1.5;
+}
+
+/* footer */
+#footer {
+  text-align: center;
+  margin: 5% 3% 5% 0;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+/* media */
+@media (max-width: 1028px) {
+  #title {
+    background-color: #fff;
+    text-align: center;
+  }
 }
